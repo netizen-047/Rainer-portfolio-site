@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import DetailHeader from "../../components/DetailHeader.astro";
+import DetailPostLayout from "../../layouts/DetailPostLayout.astro";
+import CallToAction from "../../components/CallToAction.astro";
+
+//输入文件夹地址，会按文件名自动加载全部，并压缩为webp格式
+const images = await Astro.glob('../../assets/projects/5-7-ht10/*.{jpg,png,webp}');
+
+---
+<DetailPostLayout
+	title=""
+	description = '',
+	keywords = '',
+>
+	<div class="post">
+		<main class="post-wrapper">
+			<DetailHeader
+			tag="电商"
+			description="">
+					<h1 class="font-type">
+						HT10 电商详情页
+					</h1>
+			</DetailHeader>
+
+			<section class="preview">
+				{images.map((img, index) => (
+					<picture class="gsap-picture">
+					  <Image src={img.default} alt={`Image ${index + 1}`}   loading="lazy" decoding="async" />
+					</picture>
+				  ))}
+			</section>
+		</main>
+	</div>
+</DetailPostLayout>
+
+<style>
+img{
+	border:1px solid #ececec;
+}
+.btn{
+	display: flex;
+	gap: 16px;
+}
+</style>

@@ -2,9 +2,11 @@
 
 # 设计师的个人网站 Designer Portfolio Site
 
+本项目是基于rico的个人作品集开源项目为基础搭建的Rainer的个人作品集网站
+
 ### 网站预览
 
-Rico's Blog:  `<a href="https://ricoui.com/" target="_blank">`ricoui.com`</a>`
+Rico's Blog:  `<a href="https://ricoui.com/" target="_blank">`ricoui.com `</a>`
 
 仓库地址:   `<a href="github.com/ricocc/public-portfolio-site" target="_blank">` https://github.com/ricocc/public-portfolio-site `</a>`
 
@@ -30,7 +32,6 @@ Rico's Blog:  `<a href="https://ricoui.com/" target="_blank">`ricoui.com`</a>`
 右上角默认页面亮/暗页面操作修改在：<src\components\ThemeToggle.astro>
 修改背景颜色文件在：<src\layouts\BaseLayout.astro>
 
-
 ### 操作必备代码
 
 npm install       # 安装依赖
@@ -48,11 +49,11 @@ Ctrl + C 停止终端运行
 
 ### 字体选择
 
-中文标题字体： 汇文明朝体 `<a href="https://tieba.baidu.com/p/7193815211" target="_blank">`官方链接`</a>`
+中文标题字体： 汇文明朝体 `<a href="https://tieba.baidu.com/p/7193815211" target="_blank">`官方链接 `</a>`
 
-正文字体：思源黑体 `<a href="https://fonts.google.com/noto/specimen/Noto+Sans+SC?query=Noto+sans+sc" target="_blank">`Google Font`</a>`
+正文字体：思源黑体 `<a href="https://fonts.google.com/noto/specimen/Noto+Sans+SC?query=Noto+sans+sc" target="_blank">`Google Font `</a>`
 
-英文字体：Special Elite   `<a href="https://fonts.google.com/specimen/Special+Elite" target="_blank">`Google Font`</a>`
+英文字体：Special Elite   `<a href="https://fonts.google.com/specimen/Special+Elite" target="_blank">`Google Font `</a>`
 
 中文字题由于体量过大，所以其中的标题，我选择了转化为 SVG 的格式嵌入。可以自行下载字体，再转化格式替换。
 
@@ -214,11 +215,4 @@ Yarn Command:
 
 ### 关于作者
 
-我是Rico，网页/UI设计师，目前主要专注在网页视觉和独立开发。我平时在博客`<a href="https://blog.ricocc.com/" target="_blank">`Rico's Blog`</a>`更新内容。也可以关注我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 推特 [@ricouii](https://x.com/ricouii).
-
-#### 项目
-
-- 💡 网页灵感库 `<a href="https://inspoweb.com/" target="_blank">`InspoWeb.com`</a>`
-- 🎉 UIUX 工具&资源 `<a href="https://uiuxdeck.com/" target="_blank">` UIUXDECK.com`</a>`
-- 🎨 原创免费渐变 `<a href="http://gradientshub.com/" target="_blank">`GradientsHub`</a>`
-- ✔️ Todo List `<a href="https://github.com/ricocc/uiineed-todo-list/" target="_blank">`Github`</a>`
+我是Rico，网页/UI设计师，目前主要专注在网页视觉和独立开发。我平时在博客 `<a href="https://blog.ricocc.com/" target="_blank">`Rico's Blog `</a>`更新内容。也可以关注我的小红书 [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 推特 [@ricouii](https://x.com/ricouii).

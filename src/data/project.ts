@@ -74,19 +74,58 @@ export const projectItems: ProjectItem[] = [
     cover: ['23-25-h4gm/23-h4gm-1.jpg','23-25-h4gm/24-h4gm-2.jpg','23-25-h4gm/25-h4gm-3.jpg',],
 		tags: ['电商', '商品详情页']
 	},
-
-
-
-
-
-
 	{
-		title: "品牌建设视觉",
-    title_en: "Brand",
+		title: "HT18商品详情页",
+    title_en: "HT18 Product Detail",
 		date: "2026.03.01",
-    detail: "/detail/brand/",
+    detail: "/detail/ht18/",
     url: "",
-    cover: ['44-48-brand/44-contents-02.jpg','44-48-brand/45-brand-1-2024.jpg','44-48-brand/46-brand-2-2024.jpg','44-48-brand/47-brand-3-2024.jpg',],
+    cover: ['26-28-ht18/26-ht18-1.jpg','26-28-ht18/27-ht18-2.jpg','26-28-ht18/28-ht18-3.jpg',],
+		tags: ['电商', '商品详情页']
+	},
+	{
+		title: "CT06商品详情页",
+    title_en: "CT06 Product Detail",
+		date: "2026.03.01",
+    detail: "/detail/ct06/",
+    url: "",
+    cover: ['29-31-ct06/29-ct06-1.jpg','29-31-ct06/30-ct06-2.jpg','29-31-ct06/31-ct06-3.jpg',],
+		tags: ['电商', '商品详情页']
+	},
+	{
+		title: "CT06 Amazon 商品详情页",
+    title_en: "CT06 Amazon Product Detail",
+		date: "2026.03.01",
+    detail: "/detail/ct06-amazon/",
+    url: "",
+    cover: ['32-34-ct06-amazon/32-ct06-amazon-jp-1.jpg','32-34-ct06-amazon/33-ct06-amazon-jp-2.jpg','32-34-ct06-amazon/34-ct06-amazon-jp-3.jpg',],
+		tags: ['电商', '商品详情页']
+	},
+	{
+		title: "H3S商品详情页",
+    title_en: "H3S Product Detail",
+		date: "2026.03.01",
+    detail: "/detail/h3s-ali/",
+    url: "",
+    cover: ['35-37-h3s/35-h3s-aliexperss-1.jpg','35-37-h3s/36-h3s-aliexperss-2.jpg','35-37-h3s/37-h3s-aliexperss-3.jpg',],
+		tags: ['电商', '商品详情页']
+	},
+	{
+		title: "H3S Amazon 商品详情页",
+    title_en: "H3S Amazon Product Detail",
+		date: "2026.03.01",
+    detail: "/detail/h3s-amazon/",
+    url: "",
+    cover: ['38-40-h3s-amazon/38-h3s-amazon-jp-1.jpg','38-40-h3s-amazon/39-h3s-amazon-jp-2.jpg','38-40-h3s-amazon/40-h3s-amazon-jp-3.jpg',],
+		tags: ['电商', '商品详情页']
+	},
+	{
+		title: "HT19商品详情页",
+    title_en: "HT19 Product Detail",
+		date: "2026.03.01",
+    detail: "/detail/ht19/",
+    url: "",
+    cover: ['41-43-ht19/41-ht19-1.jpg','41-43-ht19/42-ht19-2.jpg','41-43-ht19/43-ht19-3.jpg',],
 		tags: ['电商', '商品详情页']
 	},
 	{
@@ -96,7 +135,7 @@ export const projectItems: ProjectItem[] = [
     detail: "/detail/brand/",
     url: "",
     cover: ['44-48-brand/44-contents-02.jpg','44-48-brand/45-brand-1-2024.jpg','44-48-brand/46-brand-2-2024.jpg','44-48-brand/47-brand-3-2024.jpg',],
-		tags: ['电商', '商品详情页']
+		tags: ['品牌建设', '视觉设计']
 	},
 	{
 		title: "品牌营销物料",
@@ -105,7 +144,7 @@ export const projectItems: ProjectItem[] = [
     detail: "/detail/marketing/",
     url: "",
     cover: ['49-56-marketing/49-contents-03.jpg','49-56-marketing/50-marketing-1-2024.jpg','49-56-marketing/51-marketing-2-2024.jpg','49-56-marketing/52-marketing-3-2023.jpg','49-56-marketing/53-marketing-4-2024.jpg',],
-		tags: ['电商', '商品详情页']
+		tags: ['品牌营销', '品牌营销物料']
 	},
 
 

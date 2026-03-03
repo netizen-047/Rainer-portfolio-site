@@ -106,7 +106,7 @@
 		"cover": "/assets/cover/35-h3s-aliexperss-1.jpg",
 		"title": "H3S",
 		"desc": "H3S商品详情页",
-		"detail": "/detail/h3s",
+		"detail": "/detail/h3s-ali",
 		"category":"ecommerce,recommend",
 		"tag": "电商",
 		"date": "2026-03-01"
@@ -137,7 +137,7 @@
 		"title": "2024 品牌建设",
 		"desc": "2024年产出的品牌建设物料",
 		"url": "",
-		"detail": "/detail/brand-2024",
+		"detail": "/detail/brand",
 		"category": "branding,recommend",
 		"tag": "品牌",
 		"date": "2026-03-01"
@@ -145,26 +145,14 @@
 	{
 		"id": "15",
 		"cover": "/assets/cover/50-marketing-1-2024.jpg",
-		"title": "2024 营销物料",
-		"desc": "2024年产出的营销物料",
+		"title": "营销物料",
+		"desc": "2024-2025年产出的营销物料",
 		"url": "",
-		"detail": "/detail/marketing-2024",
-		"category": "marketing,recommend",
-		"tag": "营销",
-		"date": "2026-03-01"
-	},	
-	{
-		"id": "16",
-		"cover": "/assets/cover/54-marketing-1-2025.jpg",
-		"title": "2025 营销物料",
-		"desc": "2025年产出的营销物料",
-		"url": "",
-		"detail": "/detail/marketing-2025",
+		"detail": "/detail/marketing",
 		"category": "marketing,recommend",
 		"tag": "营销",
 		"date": "2026-03-01"
 	}
-
 
 
 	

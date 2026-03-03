@@ -1,6 +1,6 @@
 export const siteConfig = {
-    siteName: import.meta.env.PUBLIC_SITE_NAME,
-    siteUrl: import.meta.env.PUBLIC_SITE_URL,
+    siteName: import.meta.env.PUBLIC_SITE_NAME || 'Rainer Portfolio',
+    siteUrl: import.meta.env.PUBLIC_SITE_URL || '/',
 }
 
 interface NavItem {
@@ -42,7 +42,7 @@ export const homeTdk: SeoTdk = {
 // SEO TDK 关于
 export const aboutTdk: SeoTdk = {
 	title: '设计师Rainer的个人介绍',
-	description: '设计师Raine的个人介绍',
+	description: '设计师Rainer的个人介绍',
 	keywords: 'Rainer,个人站'
 }
 // SEO TDK  项目
@@ -58,8 +58,16 @@ export const notFoundTdk: SeoTdk = {
 	keywords: '404 Not Found. 这里什么都没有。'
 }
 
+export interface SocialLink {
+  name: string;
+  url: string;
+  icon: string;
+}
+// 明确声明类型，即使数组为空
+
 // 社交平台 name：名称  url: 链接 icon：svg图标
-export const socialLinks = [
+export const socialLinks: SocialLink[] = [
+	
 	// {
 	// 	name: 'Github',
 	// 	url: 'https://github.com/ricocc/public-portfolio-site',

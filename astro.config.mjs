@@ -3,7 +3,9 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
-const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://yoursite.com/';  
+import cloudflare from '@astrojs/cloudflare';
+
+const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://yoursite.com/';
 
 export default defineConfig({
   output: 'static',
@@ -17,7 +19,6 @@ export default defineConfig({
 
   envPrefix: 'PUBLIC_',
   site: SITE_URL,
-
   integrations: [sitemap(), mdx()],
 
   css: {
@@ -27,4 +28,6 @@ export default defineConfig({
       },
     },
   },
+
+  adapter: cloudflare(),
 });

@@ -1,5 +1,6 @@
 ---
 import Analytics from '../components/functions/Analytics.astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 import '../styles/layout.scss';
 import '../styles/global.scss';
 interface Props {
@@ -43,3 +44,4 @@ const { title, description,keywords } = Astro.props;
 </script>
 
 <Analytics />
+<SpeedInsights />

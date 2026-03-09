@@ -129,13 +129,13 @@ export const pageTag: PageTag = {
 //Page Description 页面大标题下的说明文字
 interface PageDescription {
 	index?: string
-	project?: string
+	project?: string	
 	about?: string
 }
 export const pageDescription: PageDescription = {
-	index: '我是Rainer，一个拥有8年电商与品牌设计经验的视觉设计师',
+	index: '我是Rainer,一个拥有8年电商与品牌设计经验的视觉设计师',
 	project: "这是我的部分项目展示",
-	about: '一名商业目标导向的视觉设计师，擅长电商全案设计与搭建品牌视觉体系'
+	about: "一名以商业目标导向的视觉设计师\n擅长电商全案设计与搭建品牌视觉体系"
 }
 
 // FilterItem 首页作品展示筛选列表

@@ -23,6 +23,20 @@ const images = await Astro.glob('../../assets/projects/49-56-marketing/*.{jpg,pn
 						品牌营销物料
 					</h1>
 			</DetailHeader>
+			<div class="content">
+					<div class="row desc">
+						<div class="col-1a">
+							<h3 class="post-title">品牌营销物料, 品牌宣传, 视觉设计</h3>
+							<p class="post-desc">
+								品牌营销物料是为提升品牌知名度和市场影响力而设计的一系列视觉材料。
+							</p>
+							<p class="post-desc">
+								这些物料包括宣传海报、社交媒体内容等，旨在通过统一的视觉风格和信息传达，增强消费者对品牌的认知和信任。
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section class="preview">
 				{images.map((img, index) => (
@@ -37,7 +51,7 @@ const images = await Astro.glob('../../assets/projects/49-56-marketing/*.{jpg,pn
 
 <style>
 img{
-	border:1px solid #ececec;
+	border:0px solid #ececec;
 }
 .btn{
 	display: flex;

@@ -107,7 +107,7 @@ export const projectItems: ProjectItem[] = [
 		date: "2026.03.01",
     detail: "/detail/h3s-ali/",
     url: "",
-    cover: ['35-37-h3s/35-h3s-aliexperss-1.jpg','35-37-h3s/36-h3s-aliexperss-2.jpg','35-37-h3s/37-h3s-aliexperss-3.jpg',],
+    cover: ['35-37-h3s-ali/35-h3s-aliexperss-1.jpg','35-37-h3s-ali/36-h3s-aliexperss-2.jpg','35-37-h3s-ali/37-h3s-aliexperss-3.jpg',],
 		tags: ['电商', '商品详情页']
 	},
 	{

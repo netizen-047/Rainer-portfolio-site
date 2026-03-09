@@ -92,20 +92,22 @@ const { tag, description } = Astro.props;
         text-align: center;
     }
     &-saying{
-        font-size: 1rem;
+        font-size: 1.25rem;
         line-height: 160%;
         font-weight: 400;
         text-align: center;
+        white-space: pre-line; 
         color:var(--color-300);
         strong{
             display: block;
             font-weight: 600;
-            margin-bottom:1em;
+            margin-bottom:1.5em;
             color:var(--color-100);
         }
         p{
-            font-size: 0.875rem;
+            font-size: 1.125rem;
             margin-bottom:0.5em;
+            text-align: center;
         }
         a:link{
             color:#11A371;
@@ -117,7 +119,7 @@ const { tag, description } = Astro.props;
 }
 .title-tag{
     display: inline-block;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 500;
     line-height: 1;
     margin:16px auto 16px;

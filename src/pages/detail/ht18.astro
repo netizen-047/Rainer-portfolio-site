@@ -23,6 +23,20 @@ const images = await Astro.glob('../../assets/projects/26-28-ht18/*.{jpg,png,web
 						HT18 电商详情页
 					</h1>
 			</DetailHeader>
+			<div class="content">
+					<div class="row desc">
+						<div class="col-1a">
+							<h3 class="post-title">HT18, 电商详情页, 产品详情页</h3>
+							<p class="post-desc">
+								HT18是一个产品详情页的项目，我负责设计了该产品的详情页。
+							</p>
+							<p class="post-desc">
+								这个详情页的设计旨在提供用户友好的购物体验，同时突出产品的特点和优势。通过精心设计的布局、清晰的产品信息展示以及吸引人的视觉元素。
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section class="preview">
 				{images.map((img, index) => (
@@ -37,7 +51,7 @@ const images = await Astro.glob('../../assets/projects/26-28-ht18/*.{jpg,png,web
 
 <style>
 img{
-	border:1px solid #ececec;
+	border:0px solid #ececec;
 }
 .btn{
 	display: flex;
